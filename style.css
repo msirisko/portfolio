@@ -1,0 +1,30 @@
+body {
+    background-color: darkkhaki;
+    font-family: Arial, Tahoma, serif;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: chocolate;
+}
+hr {
+    border-top: 1px solid white;
+}
+
+.infos {
+    display: flex;
+}
+.textfeld {
+    padding: 20px;
+    vertical-align: middle;
+}
+.liste {
+    padding-bottom: 40px;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+}
