@@ -12,8 +12,12 @@ a {
 a:visited {
     color: chocolate;
 }
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
 hr {
-    border-top: 1px solid white;
+    border-top: 5px solid white;
 }
 .infos {
     display: flex;
@@ -28,5 +32,6 @@ hr {
 }
 .links {
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
 }
