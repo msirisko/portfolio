@@ -1,23 +1,25 @@
 body {
-    background-color: darkkhaki;
+    background-color: white;
     font-family: Arial, Tahoma, serif;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 700px;
+    margin: auto;
+}
+.main {
+    font-family: 'Pridi', serif;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 a:visited {
-    color: chocolate;
+    color: lightgrey;
 }
 a:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 hr {
-    border-top: 5px solid white;
+    border-top: 5px solid lightgrey;
 }
 .infos {
     display: flex;
@@ -26,12 +28,24 @@ hr {
     padding: 20px;
     vertical-align: middle;
 }
-.liste {
-    padding-bottom: 40px;
 
-}
 .links {
     display: flex;
     gap: 50px;
     justify-content: center;
+    margin-bottom: 5px;
+}
+.accordion-button:hover {
+    background-color: lightgrey !important;
+    color:black !important;
+    text-decoration: none !important;
+    border: hidden !important;
+}
+.accordion-button:focus, .accordion-button:active {
+    background-color: lightgrey;
+}
+.accordion-button:not(.collapsed) {
+    color: black  !important;
+    background-color: lightgrey !important;
+    border: hidden !important;
 }

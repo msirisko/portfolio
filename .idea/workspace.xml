@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43d7ff6-2ce8-476c-b6d0-d6e90222bd6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bilder/MS_AG_Sedding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilder/banner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilder/MS_AG_Sedding.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -92,6 +95,7 @@
       <workItem from="1649316153301" duration="6593000" />
       <workItem from="1649324410198" duration="2684000" />
       <workItem from="1649412177220" duration="4813000" />
+      <workItem from="1649663748276" duration="7768000" />
     </task>
     <servers />
   </component>
