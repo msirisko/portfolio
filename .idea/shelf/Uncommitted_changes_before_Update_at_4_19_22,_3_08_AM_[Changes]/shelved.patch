@@ -1,0 +1,427 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Mirjas Portfolio</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');\n    </style>\n</head>\n<body>\n<div class=\"main\">\n<div class=\"banner\"><img src=\"bilder/banner.jpg\" class=\"img-fluid\" alt=\"Mirjas Portfolio\" width=700px></div>\n<hr>\n<div class=\"infos\"><img src=\"bilder/MS_AG_Sedding.jpg\" class=\"rounded\" width=295px alt=\"Ein Bild von mir\">\n<div class=\"textfeld\">Noch mehr Infos über mich, keine Ahnung, blablaba.</div>\n</div>\n<hr>\n<div><h3>Irgendein Text über mich.</h3></div>\n<div class=\"accordion accordion-flush\" id=\"accordion\">\n    <div class=\"accordion-item\">\n        <h2 class=\"accordion-header\" id=\"flush-headingOne\">\n            <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseOne\" aria-expanded=\"false\" aria-controls=\"flush-collapseOne\">\n                Wer bin ich?\n            </button>\n        </h2>\n        <div id=\"flush-collapseOne\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingOne\" data-bs-parent=\"#accordionFlushExample\">\n            <div class=\"accordion-body\">Ich bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich. </div>\n        </div>\n    </div>\n    <div class=\"accordion-item\">\n        <h2 class=\"accordion-header\" id=\"flush-headingTwo\">\n            <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseTwo\" aria-expanded=\"false\" aria-controls=\"flush-collapseTwo\">\n                Was mache ich?\n            </button>\n        </h2>\n        <div id=\"flush-collapseTwo\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingTwo\" data-bs-parent=\"#accordionFlushExample\">\n            <div class=\"accordion-body\">Ich fülle besonders gerne und mit unbändiger Freude Textfelder mit Fülltexten.</div>\n        </div>\n    </div>\n    <div class=\"accordion-item\">\n        <h2 class=\"accordion-header\" id=\"flush-headingThree\">\n            <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseThree\" aria-expanded=\"false\" aria-controls=\"flush-collapseThree\">\n                Wie mache ich es?\n            </button>\n        </h2>\n        <div id=\"flush-collapseThree\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingThree\" data-bs-parent=\"#accordionFlushExample\">\n            <div class=\"accordion-body\">Jetzt fällt mir tatsächlich langsam gar nichts mehr ein, was ich noch schreiben könnte...</div>\n        </div>\n    </div>\n    <div class=\"accordion-item\">\n        <h2 class=\"accordion-header\" id=\"flush-headingFour\">\n            <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseFour\" aria-expanded=\"false\" aria-controls=\"flush-collapseThree\">\n                Was ist meine Motivation?\n            </button>\n        </h2>\n        <div id=\"flush-collapseFour\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingFour\" data-bs-parent=\"#accordionFlushExample\">\n            <div class=\"accordion-body\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>\n        </div>\n    </div>\n</div>\n</br>\n</br>\n</div>\n<div class=\"links\">\n    <a href=\"http://www.twitter.com\" type=\"button\" class=\"btn btn-dark btn-sm\">Twitter</a>\n    <a href=\"http://www.xing.com\" type=\"button\" class=\"btn btn-dark btn-sm\">Xing</a>\n    <a href=\"http://www.linkedin.com\" type=\"button\" class=\"btn btn-dark btn-sm\">LinkedIn</a>\n    <a href=\"mailto:mirja.sirisko@adesso.de\" type=\"button\" class=\"btn btn-dark btn-sm\">Email</a>\n</div>\n\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision be5bedbee2bcb0ed9716521f441d2b9bf478f8d0)
++++ b/index.html	(date 1650359806542)
+@@ -2,74 +2,112 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Mirjas Portfolio</title>
+-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
++    <title>Zum Ausprobieren</title>
++    <meta name="viewport" content="width=device-width, initial-scale=1">
++    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
++          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+-    <style>
+-        @import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+-    </style>
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+-<div class="main">
+-<div class="banner"><img src="bilder/banner.jpg" class="img-fluid" alt="Mirjas Portfolio" width=700px></div>
+-<hr>
+-<div class="infos"><img src="bilder/MS_AG_Sedding.jpg" class="rounded" width=295px alt="Ein Bild von mir">
+-<div class="textfeld">Noch mehr Infos über mich, keine Ahnung, blablaba.</div>
++<div class="header">
++    <img class="banner" src="bilder/banner.jpg" alt="Mirjas Portfolio">
+ </div>
+-<hr>
+-<div><h3>Irgendein Text über mich.</h3></div>
+-<div class="accordion accordion-flush" id="accordion">
+-    <div class="accordion-item">
+-        <h2 class="accordion-header" id="flush-headingOne">
+-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+-                Wer bin ich?
+-            </button>
+-        </h2>
+-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+-            <div class="accordion-body">Ich bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich. </div>
+-        </div>
+-    </div>
+-    <div class="accordion-item">
+-        <h2 class="accordion-header" id="flush-headingTwo">
+-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+-                Was mache ich?
+-            </button>
+-        </h2>
+-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+-            <div class="accordion-body">Ich fülle besonders gerne und mit unbändiger Freude Textfelder mit Fülltexten.</div>
+-        </div>
+-    </div>
+-    <div class="accordion-item">
+-        <h2 class="accordion-header" id="flush-headingThree">
+-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+-                Wie mache ich es?
+-            </button>
+-        </h2>
+-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+-            <div class="accordion-body">Jetzt fällt mir tatsächlich langsam gar nichts mehr ein, was ich noch schreiben könnte...</div>
++
++<div class="info">
++    <img class="image" src="bilder/MS_AG_Sedding.jpg"  width="340" height="255" alt="Ein Bild von mir">
++    <div class="about">
++        Mein Name ist Mirja. Ich mache viele interessante Dinge. Ich erzähle gleich davon.
++        Mach dich bereit!
++    </div>
++</div>
++
++    <div class="text">
++        Noch mehr Infos über mich, keine Ahnung, blablaba.
++    </div>
++
++
++
++    <div class="list">
++        <input type="checkbox" id="title1" />
++        <label for="title1">Wer bin ich?</label>
++
++        <div class="content">
++            <p>Ich bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich,
++                bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich.</p>
++        </div>
++
++        <input type="checkbox" id="title2" />
++        <label for="title2">Was mache ich?</label>
++
++        <div class="content">
++            <p>Ich fülle besonders gerne und mit unbändiger Freude Textfelder mit
++                Fülltexten.</p>
+         </div>
+-    </div>
+-    <div class="accordion-item">
+-        <h2 class="accordion-header" id="flush-headingFour">
+-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+-                Was ist meine Motivation?
+-            </button>
+-        </h2>
+-        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+-            <div class="accordion-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
++
++        <input type="checkbox" id="title3" />
++        <label for="title3">Wie mache ich es?</label>
++
++        <div class="content">
++            <p>Jetzt fällt mir tatsächlich langsam gar nichts mehr ein, was ich noch
++                schreiben könnte...</p>
++        </div>
++        <input type="checkbox" id="title4" />
++        <label for="title4">Was ist meine Motivation?</label>
++
++        <div class="content">
++            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
++                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
++                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
++                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
++                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
++                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
++                Lorem ipsum dolor sit amet.</p>
+         </div>
++
+     </div>
+-</div>
+-</br>
+-</br>
+-</div>
+-<div class="links">
+-    <a href="http://www.twitter.com" type="button" class="btn btn-dark btn-sm">Twitter</a>
+-    <a href="http://www.xing.com" type="button" class="btn btn-dark btn-sm">Xing</a>
+-    <a href="http://www.linkedin.com" type="button" class="btn btn-dark btn-sm">LinkedIn</a>
+-    <a href="mailto:mirja.sirisko@adesso.de" type="button" class="btn btn-dark btn-sm">Email</a>
+-</div>
++<h1 class="animate__animated animate__rubberBand animate__infinite">NEU!</h1>
++        <div class="newsletter">
++
++                <div class="subform">
++                    <div class="selection">
++                    Abonniere jetzt meinen kostenlosen Newsletter! <br>
++                        Ich möchte den Newsletter:
++                        <select class="frecuency">
++                            <option value="0" selected>täglich</option>
++                            <option value="1" >wöchentlich</option>
++                            <option value="2">monatlich</option>
++                        </select>
++                    <div class="well">
++                        <form action="#">
++                            <div class="input-group">
++                                <input class="btn btn-sm border-dark" name="email" id="email" type="email" placeholder="Deine Email-Adresse" required>
++                                <button class="btn btn-info btn-dark type='submit'">Submit</button>
++                            </div>
++                        </form>
++                    </div>
++                    </div>
++                </div>
++        </div>
++
++
++
++    <div class="footer">
++        <div class="button" onclick="window.location.href='https://www.twitter.com';">
++            Twitter
++        </div>
++        <div class="button" onclick="window.location.href='https://www.linkedIn.com';">
++            LinkedIn
++        </div>
++        <div class="button" onclick="window.location.href='https://www.xing.com';">
++            Xing
++        </div>
++        <div class="button" onclick="window.location.href='mailto:mirja.sirisko@adesso.de';" >
++            Email
++        </div>
+ 
+-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
++    </div>
++
+ </body>
+-</html>
++</html>
+\ No newline at end of file
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\n    background-color: white;\n    font-family: Arial, Tahoma, serif;\n    max-width: 700px;\n    margin: auto;\n}\n.main {\n    font-family: 'Pridi', serif;\n}\na {\n    text-decoration: none;\n    color: black;\n}\na:visited {\n    color: lightgrey;\n}\na:hover {\n    color: black;\n    text-decoration: underline;\n}\nhr {\n    border-top: 5px solid lightgrey;\n}\n.infos {\n    display: flex;\n}\n.textfeld {\n    padding: 20px;\n    vertical-align: middle;\n}\n\n.links {\n    display: flex;\n    gap: 50px;\n    justify-content: center;\n    margin-bottom: 5px;\n}\n.accordion-button:hover {\n    background-color: lightgrey !important;\n    color:black !important;\n    text-decoration: none !important;\n    border: hidden !important;\n}\n.accordion-button:focus, .accordion-button:active {\n    background-color: lightgrey;\n}\n.accordion-button:not(.collapsed) {\n    color: black  !important;\n    background-color: lightgrey !important;\n    border: hidden !important;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision be5bedbee2bcb0ed9716521f441d2b9bf478f8d0)
++++ b/style.css	(date 1650354615102)
+@@ -1,51 +1,119 @@
+ body {
+     background-color: white;
+-    font-family: Arial, Tahoma, serif;
+-    max-width: 700px;
+-    margin: auto;
+-}
+-.main {
+     font-family: 'Pridi', serif;
+-}
+-a {
+-    text-decoration: none;
+-    color: black;
++    max-width: 1200px;
++    margin: auto;
+ }
+-a:visited {
+-    color: lightgrey;
++.header {
++    background-color: black;
++    text-align: center;
+ }
+-a:hover {
+-    color: black;
+-    text-decoration: underline;
++
++.banner {
++    width:80%;
+ }
+-hr {
+-    border-top: 5px solid lightgrey;
+-}
+-.infos {
++.info {
+     display: flex;
++    flex-direction: column;
++}
++.image {
++    max-width: 40%;
++    height: auto;
++    margin: 15px;
++    padding: 5px;
++    border-radius: 25px;
++}
++.about {
++    padding: 5px;
++    margin: 15px;
++    font-size: 22px;
++}
++
++.text {
++    padding: 5px;
++    margin: 15px;
++    font-size: 20px;
+ }
+-.textfeld {
++h1 {
++    margin-top: 20px;
++    text-align: center;
++    font-weight: bold;
++}
++.newsletter {
+     padding: 20px;
+-    vertical-align: middle;
+-}
+-
+-.links {
+     display: flex;
+-    gap: 50px;
+-    justify-content: center;
++}
++.selection {
++    display: flex;
++    flex-direction: column;
++    gap: 10px;
++}
++.list {
++    margin: 15px;
++}
++input {
++    display: none;
++}
++
++label {
++    display: block;
++    padding: 8px 22px;
++    margin: 0 0 5px 0;
++    cursor: pointer;
++    background: black;
++    border-radius: 3px;
++    color: #FFF;
++    transition: ease .5s;
++    font-size: 20px;
++}
++
++label:hover {
++    background: grey;
++}
++
++.content {
++    background: white;
++    padding: 1px 22px;
++    border: 1px solid grey;
++    margin: 0 0 1px 0;
++    border-radius: 3px;
++    font-size: 20px;
++}
++
++input + label + .content {
++    display: none;
++}
++
++input:checked + label + .content {
++    display: block;
++}
++.footer {
++    margin-top: 20px;
++    display: flex;
++    justify-content: space-around;
+     margin-bottom: 5px;
+ }
+-.accordion-button:hover {
+-    background-color: lightgrey !important;
+-    color:black !important;
+-    text-decoration: none !important;
+-    border: hidden !important;
++.button {
++    display: flex;
++    align-items: center;
++    justify-content: center;
++    position: relative;
++    background-color: black;
++    height: min-content;
++    width: min-content;
++    color: white;
++    font-size: 15px;
++    padding: 10px 10px;
++    border-radius: 1rem;
++    cursor: pointer;
++    font-family: Arial, Tahoma, serif;
++}
++.button:hover {
++    text-decoration: underline;
+ }
+-.accordion-button:focus, .accordion-button:active {
+-    background-color: lightgrey;
++@media only screen and (min-width: 768px) {
++    .info {
++        display: flex;
++        flex-direction: row;
++    }
+ }
+-.accordion-button:not(.collapsed) {
+-    color: black  !important;
+-    background-color: lightgrey !important;
+-    border: hidden !important;
+-}
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1649333866699)
++++ b/.idea/vcs.xml	(date 1649333866699)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1649333867003)
++++ b/.idea/.gitignore	(date 1649333867003)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1649333866691)
++++ b/.idea/modules.xml	(date 1649333866691)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/portfolio.iml" filepath="$PROJECT_DIR$/.idea/portfolio.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/portfolio.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/portfolio.iml b/.idea/portfolio.iml
+new file mode 100644
+--- /dev/null	(date 1649333866671)
++++ b/.idea/portfolio.iml	(date 1649333866671)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
